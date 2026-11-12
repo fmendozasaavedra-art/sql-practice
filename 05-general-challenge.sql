@@ -30,3 +30,14 @@ Problem: how many films have a rating of R and a replacement cost between 5 and 
 */
 SELECT COUNT (*) FROM film
 WHERE rating ='R' AND replacement_cost BETWEEN 5 AND 15;
+
+
+/*
+Course: SQL Bootcamp - Zero to Hero
+general Challenge no 5
+Problem: how many films have a the word truman somewhere in the title?
+*/
+
+SELECT COUNT (*) FROM film
+WHERE title LIKE'%Truman%'
+
